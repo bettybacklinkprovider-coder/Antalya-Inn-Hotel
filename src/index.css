@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-serif: 'Cinzel', Georgia, Cambria, serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #0d0714;
+    color: #f5f0e6;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-luxury-serif {
+    font-family: var(--font-serif);
+    letter-spacing: 0.02em;
+  }
+}
+
+/* Custom Luxury Aesthetics & Gold Utilities */
+.text-gold {
+  color: #d4af37;
+}
+
+.text-gold-light {
+  color: #f3e5ab;
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #fff2be 0%, #d4af37 50%, #aa820a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-purple-dark {
+  background-color: #0d0714;
+}
+
+.bg-purple-card {
+  background-color: #170c24;
+}
+
+.bg-purple-gradient {
+  background: linear-gradient(180deg, #180a2b 0%, #0d0714 100%);
+}
+
+.border-gold {
+  border-color: rgba(212, 175, 55, 0.3);
+}
+
+.border-gold-glow {
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.15);
+}
+
+.gold-glow-hover {
+  transition: all 0.3s ease;
+}
+
+.gold-glow-hover:hover {
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.25);
+  border-color: rgba(212, 175, 55, 0.6);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0714;
+}
+::-webkit-scrollbar-thumb {
+  background: #2b1742;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Antalya Inn Hotel",
+  "description": "A refined boutique luxury hotel in Muratpaşa, Antalya, Türkiye. Experience comfort, elegance, and authentic Turkish hospitality.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
