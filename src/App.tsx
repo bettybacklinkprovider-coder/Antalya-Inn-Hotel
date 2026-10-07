@@ -64,7 +64,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#0d0714] text-[#f5f0e6] flex flex-col font-sans selection:bg-[#d4af37] selection:text-[#0d0714]">
+    <div className="min-h-screen bg-transparent text-[#f5f0e6] flex flex-col font-sans selection:bg-[#d4af37] selection:text-[#0d0714]">
       {/* Sticky Navigation Bar */}
       <Navbar currentPage={currentPage} onNavigate={handleNavigate} />
 

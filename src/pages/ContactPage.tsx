@@ -65,7 +65,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
   };
 
   return (
-    <div className="pt-24 pb-20 bg-[#0d0714]">
+    <div className="pt-24 pb-20 bg-transparent">
       {/* HERO SECTION */}
       <section className="relative py-16 bg-purple-gradient border-b border-purple-900/40 text-center">
         <div className="max-w-4xl mx-auto px-4 space-y-4">

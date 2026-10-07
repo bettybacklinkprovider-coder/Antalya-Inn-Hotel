@@ -9,6 +9,11 @@
   body {
     font-family: var(--font-sans);
     background-color: #0d0714;
+    background-image: linear-gradient(rgba(13, 7, 20, 0.9), rgba(13, 7, 20, 0.9)), url('https://res.cloudinary.com/k7og2ybq/image/upload/v1791355135/unnamed_1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: #f5f0e6;
     overflow-x: hidden;
   }

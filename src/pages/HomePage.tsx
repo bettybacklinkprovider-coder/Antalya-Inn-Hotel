@@ -114,7 +114,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       </section>
 
       {/* SECTION 2 — WELCOME / ABOUT THE HOTEL */}
-      <section id="about" className="py-24 bg-[#0d0714] relative overflow-hidden border-t border-purple-900/30">
+      <section id="about" className="py-24 bg-[#0d0714]/65 backdrop-blur-[2px] relative overflow-hidden border-t border-purple-900/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             
@@ -182,7 +182,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       </section>
 
       {/* SECTION 3 — ROOMS & COMFORT */}
-      <section className="py-24 bg-[#12091f] relative border-t border-purple-900/30">
+      <section className="py-24 bg-[#12091f]/75 backdrop-blur-[2px] relative border-t border-purple-900/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           {/* Header */}
@@ -271,7 +271,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       </section>
 
       {/* SECTION 4 — WHY CHOOSE ANTALYA INN HOTEL */}
-      <section className="py-24 bg-[#0d0714] relative border-t border-purple-900/30">
+      <section className="py-24 bg-[#0d0714]/65 backdrop-blur-[2px] relative border-t border-purple-900/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           <div className="text-center max-w-2xl mx-auto space-y-3 mb-16">
@@ -395,7 +395,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       </section>
 
       {/* SECTION 6 — BOOK YOUR STAY / CONTACT CTA */}
-      <section className="py-20 bg-[#0d0714] relative">
+      <section className="py-20 bg-[#0d0714]/65 backdrop-blur-[2px] relative">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-br from-[#1a0c2e] to-[#251040] border-2 border-[#d4af37]/50 rounded-3xl p-8 sm:p-12 text-center space-y-6 shadow-2xl relative overflow-hidden">
             {/* Ambient gold glow badge */}
